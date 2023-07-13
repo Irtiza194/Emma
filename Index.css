@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@font-face {
+  font-family: "Cabinette";
+  src: url(CabinetGrotesk-Variable.ttf);
+}
+body {
+  background-color: #f2eeea;
+}
+h5 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  margin-left: 70px;
+  margin-top: 50px;
+  color: #333333;
+}
+hr {
+  width: 1350px;
+  margin-left: 70px;
+  color: #333333;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  margin-left: 70px;
+  width: 700px;
+  margin-top: 110px;
+  font-size: 30px;
+}
+#first-para {
+  color: #333333;
+  margin-left: 70px;
+  width: 700px;
+  font-size: 35px;
+  margin-top: 100px;
+  font-family: "Cabinette";
+}
+#first-image {
+  height: 500px;
+  float: right;
+  margin-top: -350px;
+  margin-right: 20px;
+}
+#second-image {
+  height: 600px;
+  float: right;
+  margin-right: 70px;
+  margin-top: -200px;
+}
+#second-line {
+  width: 1350px;
+  margin-left: 70px;
+  margin-top: 250px;
+  color: #333333;
+}
+#second-para {
+  color: #333333;
+  margin-left: 70px;
+  width: 700px;
+  font-size: 35px;
+  margin-top: 40px;
+  font-family: "Cabinette";
+}
+#third-line {
+  width: 1350px;
+  color: #333333;
+  margin-left: 70px;
+  margin-top: 150px;
+}
+/*
+Responsive things
+*/
+@media (max-width: 480px) {
+  h3 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 50px;
+  }
+  #first-para,
+  #second-para {
+    width: 100%;
+    margin-left: 0;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  #first-image,
+  #second-image {
+    float: none;
+    margin: 0 auto;
+  }
+  #second-line,
+  #third-line {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  h5 {
+    margin-left: 20px;
+  }
+  hr,
+  h3,
+  #first-para,
+  #second-para,
+  #second-line,
+  #third-line {
+    margin-left: 20px;
+    width: calc(100% - 40px);
+  }
+  #first-image,
+  #second-image {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  hr,
+  h3,
+  #first-para,
+  #second-para,
+  #second-line,
+  #third-line {
+    width: calc(100% - 40px);
+  }
+  #first-image {
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
